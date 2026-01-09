@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Utama Kriptografi</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+<h1>APLIKASI KRIPTOGRAFI</h1>
+<p>Klik Nama Anggota</p>
+
+<div class="menu">
+
+  <button onclick="go('rafi aldan 2255201187')">
+    Muhammad Rafi Aldan Pratama<br>
+    <small>Caesar, Vigenere, Hill, RSA, AES</small>
+  </button>
+
+  <button onclick="go('anggota2')">
+    Nama Anggota 2<br>
+    <small>RSA Fokus</small>
+  </button>
+
+  <button onclick="go('anggota3')">
+    Nama Anggota 3<br>
+    <small>AES Fokus</small>
+  </button>
+
+  <button onclick="go('anggota4')">
+    Nama Anggota 4<br>
+    <small>Classic Cipher</small>
+  </button>
+
+</div>
+
+<script>
+function go(folder){
+  window.location.href = folder + "/index.html";
+}
+</script>
+
+</body>
+</html>
