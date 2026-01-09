@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #eef3ff;
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #555;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #0b61d8;
+}
+
+select, textarea, input, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background: #0b61d8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #094ea8;
+}
