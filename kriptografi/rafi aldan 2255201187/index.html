@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kriptografi - Rafi Aldan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Kriptografi Lengkap</h2>
+<p class="subtitle">Muhammad Rafi Aldan Pratama (2255201187)</p>
+
+<a class="back" href="../index.html">⬅ Kembali ke Menu</a>
+
+<select id="method">
+  <option value="caesar">Caesar</option>
+  <option value="vigenere">Vigenere</option>
+  <option value="hill">Hill</option>
+</select>
+
+<textarea id="input" placeholder="Masukkan teks atau klik input (dokumen akan terkunci)"></textarea>
+
+<div id="keys">
+  <input id="key" placeholder="Key / Shift">
+</div>
+
+<button onclick="encrypt()">🔐 Enkripsi</button>
+<button onclick="decrypt()">🔓 Dekripsi</button>
+
+<h3>Hasil</h3>
+<textarea id="output" readonly></textarea>
+
+<script src="script.js"></script>
+</body>
+</html>
